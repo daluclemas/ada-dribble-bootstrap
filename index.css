@@ -8,6 +8,18 @@
   --pink-color: #ea4c89;
 }
 
+::-webkit-scrollbar {
+  background-color: #5f8d77;
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--pink-color);
+  border-radius: 20px;
+}
+
 body {
   font-weight: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
